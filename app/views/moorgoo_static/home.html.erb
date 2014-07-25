@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+</head>
+
+<body>
+		<div class="container-zoom">
+	        <div class="zoomsection col-md-2" style="background-color:#4A5781">
+	        	<center>
+	            	<h1 style="padding-top:150%"><%=link_to "BOOKS",books_path %></h1>
+	        	</center>
+	        </div>
+	        <div class="zoomsection col-md-2" style="background-color:#81799F">
+	        	<center>
+	            	<h1 style="padding-top:150%"><%=link_to "CARS",cars_path %></h1>
+	        	</center>
+	        </div>
+	        <div class="zoomsection col-md-2" style="background-color:#8EAEBE">
+	            <center>
+	            	<h1 style="padding-top:150%"><%=link_to "HOUSE",house_path %></h1>
+	        	</center>
+	        	<br>
+	        	<br>
+	        	<br>
+	        	<%= link_to image_tag("logo_text.png", alt: "Moorgoo.com"), 'http://www.moorgoo.com/' %>
+	        </div>
+	        <div class="zoomsection col-md-2" style="background-color:#F9EBAE">
+	        	<center>
+	            	<h1 style="padding-top:150%; letter-spacing: -0.1em;"><%=link_to "FURNITURES",furnitures_path %></h1>
+	        	</center>
+	        </div>
+	        <div class="zoomsection col-md-2" style="background-color:#DC9766">
+	            <center>
+	            	<h1 style="padding-top:150%; letter-spacing: -0.12em;"><%=link_to "ELECTRONICS",electronics_path %></h1>
+	        	</center>
+	        </div>
+	    </div>
+</body>
+</html>
